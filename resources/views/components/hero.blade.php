@@ -1,9 +1,10 @@
-<div class="relative"
+<div class="relative "
      style="
         background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('{{ asset('images/heroImg.webp') }}');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top;
+        background-attachment: fixed;
      ">
 
     <!-- Semi-transparent overlay -->
@@ -11,7 +12,7 @@
 
     <!-- Content -->
     <div class="relative w-9/12 mx-auto text-white flex flex-col md:flex-row items-center justify-between z-10">
-        <div class="space-y-10 py-56 mt-24 text-center md:text-left max-w-xl">
+        <div class="space-y-10 h-screen pt-64 mt-28 text-center md:text-left max-w-xl">
             <h1 class="font-title text-5xl md:text-6xl font-bold leading-tight">
                 We Build Brands That Stand Out
             </h1>

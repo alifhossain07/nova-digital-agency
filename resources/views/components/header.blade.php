@@ -2,7 +2,7 @@
     <div class="w-10/12 mx-auto flex justify-between items-center py-4">
         <!-- Logo -->
         <div class="flex items-center space-x-3">
-            <img class="h-14 md:h-20 w-auto" src="{{ asset('images/novaLogo1.webp') }}" alt="Company Logo">
+            <img class="h-16 md:h-20 w-auto" src="{{ asset('images/novaLogo1.webp') }}" alt="Company Logo">
         </div>
 
         <!-- Desktop Navigation -->
