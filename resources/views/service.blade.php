@@ -9,6 +9,7 @@
 @include('components.servicepage.allservices')
 
 @include('components.servicepage.clients')
+@include('components.servicepage.workprocess')
 
 @include('components.contactsection')
 
