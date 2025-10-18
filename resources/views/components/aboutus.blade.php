@@ -22,7 +22,7 @@
 
         <!-- Text Content -->
         <div class="md:w-1/2 space-y-6 text-center md:text-left">
-            <p class="font-bold font-text text-md uppercase">About Us</p>
+            <p class="font-bold font-text text-md tracking-widest uppercase">About Us</p>
             <h2 class="font-title text-4xl font-bold text-gray-900">
                 We Are More Than Just a <br> Digital Agency
             </h2>
