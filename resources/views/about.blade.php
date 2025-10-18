@@ -9,4 +9,10 @@
 @include('components.aboutus')
 
 @include('components.aboutpage.missionvission')
+
+@include('components.aboutpage.motto')
+
+@include('components.aboutpage.ourteam')
+
+@include('components.aboutpage.faq')
 @endsection
