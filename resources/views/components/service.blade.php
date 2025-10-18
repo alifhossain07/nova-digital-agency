@@ -1,4 +1,4 @@
-<section class="bg-black text-white py-16 md:py-20">
+<section class="bg-black text-white py-16 md:py-32">
     <div class="w-11/12 md:w-9/12 mx-auto">
         <!-- Heading -->
         <div class="text-center">

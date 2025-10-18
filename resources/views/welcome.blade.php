@@ -7,7 +7,7 @@
 @include('components.hero')
 @include('components.aboutus')
 @include('components.service')
-
+@include('components.portfoliosection')
 
 
 @endsection
