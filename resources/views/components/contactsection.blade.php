@@ -1,6 +1,6 @@
 <section class="relative text-white py-20 md:py-32">
     {{-- Background Image --}}
-    <div class="absolute inset-2 bg-cover bg-center bg-fixed"
+    <div class="absolute inset-2 bg-cover bg-center "
          style="background-image: url('{{ asset('images/servicebg.webp') }}'); filter: blur(4px);"></div>
 
     {{-- Dark Overlay --}}
@@ -71,7 +71,7 @@
                           class="px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white placeholder-gray-300 focus:ring-2 focus:ring-gray-400 outline-none md:col-span-2"></textarea>
 
                 <button type="submit"
-                        class="bg-white text-black hover:bg-gray-600 transition px-6 py-3 rounded-lg font-semibold shadow-md md:col-span-2">
+                        class="bg-white text-black hover:bg-black transition px-6 py-3 rounded-lg font-semibold hover:text-white shadow-md md:col-span-2">
                     Send Request
                 </button>
             </form>
