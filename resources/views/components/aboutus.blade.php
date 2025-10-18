@@ -2,7 +2,7 @@
     <div class="w-9/12 mx-auto flex flex-col md:flex-row items-center md:space-x-12">
 
         <!-- Image Collage -->
-        <div class="md:w-1/2 mb-10 md:mb-0 flex justify-center">
+        <div data-aos="fade-right" class="md:w-1/2 mb-10 md:mb-0 flex justify-center">
             <div class="flex space-x-4">
                 <!-- Left single centered image -->
                 <div class="flex items-center">
@@ -21,7 +21,7 @@
         </div>
 
         <!-- Text Content -->
-        <div class="md:w-1/2 space-y-6 text-center md:text-left">
+        <div data-aos="fade-left" class="md:w-1/2 space-y-6 text-center md:text-left">
             <p class="font-bold font-text text-md tracking-widest uppercase">About Us</p>
             <h2 class="font-title text-2xl md:w-8/12  md:text-4xl font-bold text-gray-900">
                 We Are More Than Just a  Digital Agency

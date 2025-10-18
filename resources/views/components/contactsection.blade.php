@@ -8,7 +8,7 @@
 
     <div class="relative w-10/12  z-10 md:w-11/12 lg:w-9/12 mx-auto flex flex-col lg:flex-row gap-12">
         {{-- Left Side - Info + Newsletter --}}
-        <div class="flex-1 flex flex-col md:w-9/12 justify-center space-y-10">
+        <div data-aos="fade-right" class="flex-1 flex flex-col md:w-9/12 justify-center space-y-10">
             {{-- Info Section --}}
             <div class="space-y-4">
                 <h3 class="md:text-4xl text-2xl text-center md:text-left font-extrabold font-rubik text-white leading-snug">
@@ -39,7 +39,7 @@
         </div>
 
         {{-- Right Side - Contact Form --}}
-        <div class="flex-1 bg-white/10 backdrop-blur-md p-8 rounded-2xl shadow-2xl relative overflow-hidden">
+        <div data-aos="fade-left" class="flex-1 bg-white/10 backdrop-blur-md p-8 rounded-2xl shadow-2xl relative overflow-hidden">
             {{-- Decorative Strips --}}
             <div class="absolute top-0 right-0 w-full h-2 bg-gray-300"></div>
             <div class="absolute bottom-0 left-0 w-full h-2 bg-gray-300"></div>

@@ -4,13 +4,13 @@ $faqRight = [['question' => 'How do you approach a new digital project?', 'answe
 <section class="bg-white py-20">
     <div class="w-11/12 md:w-9/12 mx-auto flex flex-col md:flex-row gap-12">
         <!-- Left Column -->
-        <div class="md:w-1/2 flex flex-col justify-center text-center md:text-left space-y-6">
+        <div data-aos="fade-right" class="md:w-1/2 flex flex-col justify-center text-center md:text-left space-y-6">
             <h2 class="text-3xl font-title font-bold text-gray-900">{{ $faqLeft['title'] }}</h2>
             <p class="text-gray-600 font-text text-lg leading-relaxed">{{ $faqLeft['description'] }}</p>
         </div>
 
         <!-- Right Column -->
-        <div class="md:w-1/2 flex flex-col space-y-4" x-data="{ activeIndex: null }">
+        <div data-aos="fade-left" class="md:w-1/2 flex flex-col space-y-4" x-data="{ activeIndex: null }">
             @foreach($faqRight as $index => $item)
                 <div class="border border-gray-300 rounded-md overflow-hidden">
                     <button @click="activeIndex === {{ $index }} ? activeIndex = null : activeIndex = {{ $index }}"

@@ -1,3 +1,7 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
 import './bootstrap';
 // Header scroll background change
 window.addEventListener("scroll", () => {
@@ -24,3 +28,8 @@ if (menuToggle) {
         closeIcon.classList.toggle('hidden');
     });
 }
+
+AOS.init({
+    duration: 1000, // animation duration in ms
+    once: true, // whether animation should happen only once while scrolling down
+});

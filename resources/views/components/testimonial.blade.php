@@ -27,8 +27,8 @@ $testimonials = [
 ];
 @endphp
 
-<section class="w-full bg-black mx-auto py-20 lg:py-40">
-    <div class="text-center">
+<section class="w-full bg-black mx-auto py-20 ">
+    <div data-aos="fade-down" class="text-center">
     <h1 class="font-text tracking-widest text-sm md:text-xl font-bold mb-3 md:mb-6 uppercase text-gray-400">
         Success Stories
     </h1>
@@ -40,7 +40,7 @@ $testimonials = [
 
 
     <!-- Marquee Container -->
-    <div class="overflow-hidden relative mt-10 w-10/12 mx-auto">
+    <div class="overflow-hidden relative mt-20 w-10/12 mx-auto">
         <div class="flex animate-marquee space-x-6">
             @foreach($testimonials as $testimonial)
                 <div class="flex-shrink-0 w-80 md:w-96">

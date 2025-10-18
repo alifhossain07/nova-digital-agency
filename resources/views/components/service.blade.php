@@ -1,7 +1,7 @@
 <section class="bg-black text-white py-16 md:py-32">
     <div class="w-11/12 md:w-9/12 mx-auto">
         <!-- Heading -->
-        <div class="text-center">
+        <div data-aos="fade-down" class="text-center">
             <h1 class="font-text tracking-widest text-sm md:text-xl font-bold mb-3 md:mb-6 uppercase">
                 Our Services
             </h1>
@@ -11,7 +11,7 @@
         </div>
 
         <!-- Features Grid -->
-        <div class="w-full mt-10 md:mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2 md:gap-0 items-stretch">
+        <div data-aos="fade-up" class="w-full mt-10 md:mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2 md:gap-0 items-stretch">
             <!-- Left Column -->
             <div class="relative flex flex-col justify-center p-8 md:p-10 overflow-hidden min-h-[250px] md:h-auto">
                 <!-- Background image -->

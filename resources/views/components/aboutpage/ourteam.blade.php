@@ -28,7 +28,7 @@ $teamMembers = [
 @endphp
 
 <section class="py-16 px-6 lg:px-24 bg-black">
-    <div class="text-center">
+    <div  data-aos="fade-down" class="text-center">
     <h1 class="font-text text-white tracking-widest text-sm md:text-xl font-bold mb-3 md:mb-6 uppercase">
         Our Team
     </h1>
@@ -38,7 +38,7 @@ $teamMembers = [
 </div>
 
 
-    <div class="flex flex-col md:flex-row  justify-between mt-10 w-10/12 mx-auto gap-5">
+    <div data-aos="fade-up" class="flex flex-col md:flex-row  justify-between mt-10 w-10/12 mx-auto gap-5">
         @foreach($teamMembers as $member)
             <div class="bg-gray-950  shadow-lg p-8 w-72  border border-gray-800 hover:scale-105 transition-transform duration-300">
                 {{-- Profile Image --}}

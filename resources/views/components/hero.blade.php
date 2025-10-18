@@ -12,7 +12,7 @@
 
     <!-- Content -->
     <div class="relative w-9/12 mx-auto text-white flex flex-col md:flex-row items-center justify-between z-10">
-        <div class="space-y-10 md:h-screen h-[600px] pt-32 md:pt-64 mt-28 text-center md:text-left max-w-2xl">
+        <div data-aos="fade-right" class="space-y-10 md:h-screen h-[600px] pt-32 md:pt-64 mt-28 text-center md:text-left max-w-2xl">
             <h1 class="font-title text-3xl md:text-6xl font-bold leading-tight">
                 We Build Brands That Stand Out
             </h1>

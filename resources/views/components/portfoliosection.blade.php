@@ -2,7 +2,7 @@
     <div class="w-10/12 md:w-9/12 mt-16 mx-auto flex flex-col md:flex-row items-start md:space-x-12">
 
         <!-- Left Side: Text Content -->
-        <div class="md:w-1/2 space-y-6 text-center md:text-left mb-10 md:mb-0">
+        <div data-aos="fade-right" class="md:w-1/2 space-y-6 text-center md:text-left mb-10 md:mb-0">
             <p class="font-bold font-text text-md tracking-widest uppercase text-gray-500">Our Work</p>
             <h2 class="font-title text-2xl md:text-4xl font-bold text-gray-900">
                 Explore Our Creative <br> Portfolio
@@ -20,7 +20,7 @@
         </div>
 
         <!-- Right Side: Portfolio Cards Grid -->
-        <div class="md:w-1/2 w-full">
+        <div data-aos="fade-left" class="md:w-1/2 w-full">
             @php
                 $projects = [
                   ['img' => 'images/beamHero.webp', 'title' => 'BeamLOL', 'desc' => 'An Online Gaming Page', 'url' => 'https://beamlol.club'],
