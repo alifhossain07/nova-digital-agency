@@ -6,4 +6,10 @@
 
 @include('components.servicepage.servicepage')
 
+@include('components.servicepage.allservices')
+
+@include('components.servicepage.clients')
+
+@include('components.contactsection')
+
 @endsection

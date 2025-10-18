@@ -1,6 +1,6 @@
 <section class="relative text-white py-20 md:py-32">
     {{-- Background Image --}}
-    <div class="absolute inset-2 bg-cover bg-center "
+    <div class="absolute inset-2 bg-cover bg-center bg-fixed"
          style="background-image: url('{{ asset('images/servicebg.webp') }}'); filter: blur(4px);"></div>
 
     {{-- Dark Overlay --}}

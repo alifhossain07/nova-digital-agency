@@ -6,4 +6,10 @@
 
 @include('components.contactpage.contacthero')
 
+@include('components.contactpage.googlemaps')
+
+@include('components.aboutpage.ourteam')
+
+@include('components.contactsection')
+
 @endsection

@@ -74,7 +74,7 @@
         <ul class="flex flex-col space-y-4 text-center py-6 font-text text-white">
             <li><a href="{{ url('/') }}" class="hover:text-gray-300">Home</a></li>
             <li><a href="{{ url('/about') }}" class="hover:text-gray-300">About</a></li>
-            <li><a href="{{ url('/services') }}" class="hover:text-gray-300">Services</a></li>
+            <li><a href="{{ url('/service') }}" class="hover:text-gray-300">Services</a></li>
             <li><a href="{{ url('/contact') }}" class="hover:text-gray-300">Contact</a></li>
 <li>
     <a href="tel:01745305137"
