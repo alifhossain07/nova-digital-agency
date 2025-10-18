@@ -44,7 +44,7 @@
                 $services = [
                     ['icon' => '🖌️', 'title' => 'Graphic Design', 'desc' => 'We craft stunning visuals and brand identities that leave a lasting impression.'],
                     ['icon' => '📱', 'title' => 'Web & Mobile Design', 'desc' => 'Responsive and modern interfaces designed for seamless user experiences.'],
-                    ['icon' => '📈', 'title' => 'Social Media Marketing', 'desc' => 'Boost your brand visibility with tailored digital marketing strategies.'],
+                    ['icon' => '📈', 'title' => 'Social Media Marketing', 'desc' => 'Boost your brand visibility with tailored digital marketing strategies and gain experiences.'],
                 ];
             @endphp
 
@@ -52,7 +52,7 @@
                 <div
                     class="bg-[#141619] flex flex-col space-y-4 justify-center items-center text-center p-8 md:p-10 h-full hover:bg-[#1C1F23] transition-all duration-300">
                     <div class="text-green-400 text-3xl md:text-4xl">{{ $service['icon'] }}</div>
-                    <h3 class="font-title text-lg md:text-xl font-semibold">{{ $service['title'] }}</h3>
+                    <h3 class="font-title tracking-wider text-lg md:text-xl font-semibold">{{ $service['title'] }}</h3>
                     <p class="font-text text-gray-400 text-sm md:text-base leading-relaxed">
                         {{ $service['desc'] }}
                     </p>

@@ -1,10 +1,10 @@
-<section class="bg-gray-100 py-20">
-    <div class="w-11/12 md:w-9/12 mt-16 mx-auto flex flex-col md:flex-row items-start md:space-x-12">
+<section class="bg-gray-100 py-10 md:py-20">
+    <div class="w-10/12 md:w-9/12 mt-16 mx-auto flex flex-col md:flex-row items-start md:space-x-12">
 
         <!-- Left Side: Text Content -->
         <div class="md:w-1/2 space-y-6 text-center md:text-left mb-10 md:mb-0">
             <p class="font-bold font-text text-md tracking-widest uppercase text-gray-500">Our Work</p>
-            <h2 class="font-title text-3xl md:text-4xl font-bold text-gray-900">
+            <h2 class="font-title text-2xl md:text-4xl font-bold text-gray-900">
                 Explore Our Creative <br> Portfolio
             </h2>
             <p class="font-text text-gray-700 text-base md:text-lg leading-relaxed">
@@ -14,7 +14,7 @@
                 From web design to brand strategy, our portfolio highlights diverse work that helps our clients grow and thrive in the digital landscape.
             </p>
             <a href="{{ url('/portfolio') }}"
-               class="inline-block bg-gray-900 text-white px-6 py-3 rounded-md text-sm font-semibold font-text hover:bg-gray-700 transition-all duration-300">
+               class="inline-block bg-gray-900 text-white px-3 py-2 md:px-6 md:py-3 rounded-md text-sm font-semibold font-text hover:bg-gray-700 transition-all duration-300">
                 View All Projects
             </a>
         </div>

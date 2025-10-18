@@ -8,6 +8,7 @@
 @include('components.aboutus')
 @include('components.service')
 @include('components.portfoliosection')
-
+@include('components.testimonial')
+@include('components.contactsection')
 
 @endsection
